@@ -4,3 +4,14 @@
 /* Logomarca Radar F5 Shop nos cabeçalhos */
 .brand-logo{width:48px;height:48px;object-fit:cover;border-radius:50%;display:block;flex-shrink:0}
 @media(max-width:620px){.brand-logo{width:40px;height:40px}}
+
+/* Padrão visual compartilhado com a vitrine Mercado Livre; acentos Shopee. */
+:root{--marketplace-accent:#ee4d2d}
+.hero-link{background:var(--marketplace-accent);color:#fff;box-shadow:0 8px 24px #ee4d2d33}
+.hero-link:hover{background:#fa6243;filter:none}
+.art-circle{background:var(--marketplace-accent);color:#fff;box-shadow:30px 35px 0 #262632}
+.art-card{color:var(--marketplace-accent)}
+.filter[aria-pressed="true"]{background:var(--marketplace-accent);color:#fff;border-color:var(--marketplace-accent)}
+.filter:hover{border-color:var(--marketplace-accent)}
+.filter[aria-pressed="true"]:hover{color:#fff}
+.hero-link:hover,.back:hover{border-color:var(--marketplace-accent)}
